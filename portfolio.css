@@ -1,0 +1,169 @@
+/*CSS DOCUMENT*/
+
+html {
+    font-family: 'Raleway', sans-serif;
+    background-color:whitesmoke;
+}
+
+/*header content*/
+
+header {
+    position: fixed;
+    background-color: lightblue;
+    width: 100%;
+    align-items: center;
+    top: 0%;
+    height: fit-content;
+}
+
+header h1{
+    float: left;
+    padding-left: 2.5%;
+}
+
+header ul {
+    margin-top: 2.5%;
+    float: right;
+}
+
+header li {
+    display: inline;
+    padding: 2px;
+    font-weight: bold;
+}
+
+/*body content*/
+
+body {
+    margin: 0%;
+    max-width: 100%;
+}
+
+#AboutMe h1 {
+    display: flex;
+    justify-content: center;
+}
+
+body #AboutMe {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+body #AboutMe p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 125%;
+}
+
+body #pictures {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+body img {
+    max-width: 300px;
+    max-height: 400px;
+    padding: 3%;
+    flex-shrink: 1;
+}
+
+/*projects content*/
+#Projects {
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 2px dashed lightblue;
+}
+
+#Projects h1 {
+    display: flex;
+    justify-content: center;
+}
+
+body #Projects a {
+    display: flex;
+    justify-content: center;
+}
+
+#Projects p {
+    font-weight: bold;
+    text-align: center;
+}
+
+/*Resume*/
+#Resume {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+}
+
+#Resume h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#Resume embed {
+    display: flex;
+    justify-content: center;
+    margin-left: 12.5%;
+    width: 75%;
+    height: 125%;
+}
+
+/*Form content*/
+form{
+    margin: 2%;
+    text-align: center;
+}
+
+/*Contact Content*/
+footer {
+    background-color: lightblue;
+    width: 100%;
+    height: fit-content;
+    margin-top: 2.5%;
+}
+
+footer h1 {
+    width: 10%;
+    margin-left: 45%;
+    padding-top: 1%;
+}
+
+footer ul{
+    width: 15%;
+    margin-left: 42%;
+    margin-bottom: 2.5%;
+    margin-top: 0%;
+    padding-bottom: 1%;
+}
+
+footer li {
+    font-weight: bold;
+    display: inline;
+    padding: 5px;
+    width: 65%;
+    font-weight: bold;
+}
+
+footer li img {
+    width: 10%;
+    height: 10%;
+    padding: 0%;
+}
+
+/*links formatting*/
+a{
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: white;
+    background-color: pink;
+}
+
+a:active{
+    color: black;
+    text-decoration: underline;
+}

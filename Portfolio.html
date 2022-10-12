@@ -1,0 +1,129 @@
+<!--HTML DOCUMENT-->
+<html>
+<head>
+    <title>TSwearingen's Portfolio Website</title>
+    <link href="./portfolio.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<!--Header content-->
+<header>
+    <h1>Taylor Swearingen</h1>
+    <ul>
+        <li><a href="#AboutMe">About Me</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Resume">Resume</a></li>
+        <li><a href="#Contacts">Contact</a></li>
+    </ul>
+</header>
+
+<!--Body Content-->
+<body>
+
+    <!--About Me-->
+    <div id="AboutMe">
+        <h1>About Me</h1>
+        <p>
+            Hello! I am Taylor Swearingen, the owner of this porfolio. I am currently working three jobs: Tech Risk Analyst (Business Consultant)
+            at Ernst & Young, Assistant Manager at Coco & Duckie, and Dance Instructor at volution Performing Arts Center. I have previously interned
+            for Shell Oil Company as a Downstream Supply Chain Intern in their lubricants department. Although I have a lot of work obligations
+            I do love spending time learning new coding techniques and styles.<br>
+            <br>
+            I have been recognized for my great school work and grades through out my undergraduate degree. I graduated in the top 5% of my class at Sam 
+            Houston State University with a bacheor's degree in Business Management with a concentration in Supply Chain Management and two minors: Dance and 
+            International Business.<br>
+            <br>
+            After graduating from SHSU I was accepted into Hult International Business School's Master of Business Analytics Program. 
+            This program really got me into coding and showed me how much it can do. I already had the love for analytics from my undergraduate
+            degree and through my internship at Shell. I will graduate from Hult in March of 2023!<br>
+            <br>
+            Fun facts about me are I am engaged to Cody Vacha, live in Brenham, TX and I have a gorgeous white german shepherd named Heidi!<br>
+            <br>
+            I am looking for a career change into the data analytics sector of all businesses. You can see from my resume and the projects section below
+            the different learnings I have had throughout my career. To contact me just hit the link below!<br>
+            <br>
+            I am currently making this portfolio project for my Software Engineering course through Codecademy!
+        </p>
+
+        <!--Pictures-->
+        <div id="Pictures">
+        <img src="../../../../Pictures/scenic overlook.jpg" alt="Heidi and Taylor at the Scenic Overlook in Austin,TX">
+        <img src="../../../../Pictures/637586607856650955.jpg" alt="Taylor's graduation picture">
+        <img src="../../../../Pictures/unnamed (1).jpg" alt="Cody and Taylor">
+        </div>
+    </div>
+
+    <!--Projects-->
+    <div id="Projects">
+        <h1>Projects</h1>
+        <h3><a href="https://github.com/Taylor-Swearingen?tab=repositories" target="_blank">GitHub Link</a></h3>
+        <p> Follow my link above to view my projects in my GitHub respositories. ALthough not all of my projects are stored here, my base learning
+            projects make up the majority of these repositories. I also have my Semi-Final qualifying machine learning model posted here from the EY
+            data challenge 2022!
+        </p>
+    </div>
+
+    <!--Resume-->
+    <div id="Resume">
+        <h1>Resume</h1>
+        <embed src="../../../../Documents/Resume - Taylor Swearingen.pdf">
+    </div>
+</body>
+
+<!--Tell me about you content-->
+<div id="AboutYou">
+    <form method="POST" action="https://script.google.com/macros/s/AKfycbw_pzoPsb7ciz0AgVe4r0PKk9nNB6u1wyNp13tJuC10kwtuhsiGCEC-zfoVG_mS7vzMpA/exec">
+        <label for="Name">What's your name?</label>
+        <input id="Name" name="Name" value="First & Last please!" type="text" required><br><br>
+
+        <label for="email">What's your email?</label>
+        <input id=""email" name="Email" value="example@gmail.com" type="text" required><br><br>
+
+        <label for="state">What part of the US do you live in?</label>
+        <select id="state" name="State" required>
+            <option value="North">North</option>
+            <option value="South">South</option>
+            <option value="East">East</option>
+            <option value="West">West</option>
+            <option value="Other">Other(Not US)</option>
+        </select><br><br>
+
+        <label for="LinkedIn">Can I connect with you on LinkedIn?</label>
+        <input type="radio" id="LinkedIn" name="permission" value="No" required>No
+        <input type="radio" id="LinkedIn" name="permission" value="Yes" required>Yes<br><br>
+
+        <div id="username">
+        <label for="username">If yes, please input your Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+
+        </div>
+        <label for="submit"></label>
+        <input type="submit" id="submit" value="I'm Done!">
+    </form>
+</div>
+
+<!--Footer Content-->
+<footer id="Contacts">
+
+    <!--Contact-->
+    <h1>Contact Me!</h1>
+    <ul>
+        <li>
+            <a href=mailto:tswearingen06@gmail.com target="_blank">Email</a>
+        </li>
+        <li>
+            <a href=mailto:tswearingen06@gmail.com target="_blank"><img src="./resources/mail_logo.jpeg" alt="envelope image"></a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/taylor-swearingen/" target="_blank">LinkedIn</a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/taylor-swearingen/" target="_blank"><img src="./resources/linkedin_logo.png"></a>
+        </li>
+    </ul>
+</footer>
+
+<script src="./portfolio.js"></script>
+</html>
